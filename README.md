@@ -77,6 +77,30 @@
 
 ---
 
+## 竞争格局：全球光子 Transformer 处理器扫描 (2026)
+
+已有的所有光子 Transformer 加速器：
+
+| 项目 | 架构 | 平台 | 状态 |
+|------|------|------|:--:|
+| Lightening-Transformer (UT Austin/MIT) | MZI 波导交叉杆 + WDM | 硅光 | 仿真 |
+| PTC (西电, PhotoniX 2025) | MZI 波导 + Kramers-Kronig | 硅光 CUMEC | **已流片** (10×1) |
+| HyAtten (2025) | 混合光子-数字 | 硅光 | 仿真 |
+| ASTRA (2025, ACM) | 随机光计算 | 硅光 | 仿真 |
+| Lightelligence 曦智 (2025) | 光电混合计算卡 | 硅光 | 产品 |
+| Lightmatter | 光子矩阵核心 128×128 | 硅光 | 演示 |
+
+**全部使用硅光波导 + MZI/微环。无人使用三叠式自由空间 + 热光筛选 + CMOS 直接探测。**
+
+本设计的独特性：
+- 无波导 → 无热串扰、无精密耦合器
+- 三叠式垂直堆叠 → 天然 3D 集成
+- DiSubPc·C70 光热层 → 量子相干驱动, 省掉独立加热器
+- 差分探测 → 扇出损耗免疫
+- VCSEL 底层 → 已有商用供应链 (Coherent 2025)
+
+---
+
 ## 作者
 
 **Wayne** ([@administere](https://github.com/administere), 1443558150@qq.com)
